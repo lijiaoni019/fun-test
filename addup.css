@@ -1,0 +1,32 @@
+.suggestion{
+	padding: 16px 32px;
+	background-color: white;
+	border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+    position:absolute;
+    top: 250px;
+    left:48px ;
+
+}
+
+.linebox{
+	margin: 40px 0px;
+	display: flex;
+}
+
+.linebox a {
+	padding: 10px 20px;
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 16px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.5); 
+	margin: 0px 8px;
+	transition: 0.3s ease;
+
+}
+
+.linebox a:hover {
+	box-shadow: 0 0 2px rgba(0,0,0,0.5); 	
+}

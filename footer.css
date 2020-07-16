@@ -1,0 +1,38 @@
+.footer {
+	background-color: #F7F7F7;
+	padding: 32px 48px;
+}
+
+.footerlinks{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 32px;
+
+}
+
+.footerLink {
+	display: flex;
+	flex-direction: column;
+}
+
+.footerLink a {
+	margin: 8px 0;
+	text-decoration: none;
+	color:black;
+}
+
+.footerLink a:hover{
+	text-decoration-line: underline;
+}
+
+.endLink{
+	display: flex;
+	align-items: center;
+}
+
+.endLink a {
+	margin: 0 8px;
+	text-decoration: none;
+	color: black;
+}

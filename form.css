@@ -1,0 +1,58 @@
+.forms{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	background-color:white;
+	border:2px solid #ced4da;
+	padding:1px 0px;
+	border-radius: 16px;
+	box-shadow:  0 0 8px rgba(0,0,0,0.2);
+	overflow: hidden;
+
+
+}
+
+
+.form {
+	font-size: 1rem;
+	color: black;
+	background-color: white;
+	border:1px solid #ced4da;
+	transition: border-color 0.15s ease;
+	padding-top: 32px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	font-size: 14px;
+}
+
+.form:hover {
+	border:2px solid grey;
+	border-radius: 16px;
+	overflow: hidden;
+
+}
+
+.formButtom {
+	font-size: 1rem;
+	color: black;
+	background-color: white;
+	border:1px solid #ced4da;
+	transition: border-color 0.15s ease;
+	padding: 21px;
+
+}
+
+.pinkButtom {
+	text-decoration: none;
+	background-color:#B61A53;
+	padding:16px 48px;
+	border-radius: 16px;
+	color: white;
+	margin-left: 16px ;
+	font-size: 20px;
+	transition: background-color 3s ease;
+}
+
+.pinkButtom:hover {
+	background-color: #F52B5E;
+
+}
